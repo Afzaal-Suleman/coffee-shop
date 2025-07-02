@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .imgShadow{
+        filter: drop-shadow(40px 50px 25px #0f1115)
+    }
+    .imgShadow2{
+        filter: drop-shadow(10px 30px 15px #30307a)
+    }
+    .input-style{
+        @apply px-4 py-2 border-[1px] border-gray-400 rounded-md
+    }
+    .primary-button{
+        @apply px-4 py-2 text-white bg-primary rounded-md hover:bg-primaryDark duration-200
+    }
+}
